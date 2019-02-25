@@ -15,7 +15,7 @@
       logical    cont
       integer    i1,i2, i, nc,ilq(*),ilt(3)
       real*8     xl(3,*),vl(*),vc(nc)
-      real*8     xt(3,3),vt(3)
+      real*8     xt(3,4),vt(4)
 
       save
 
