@@ -1,8 +1,8 @@
-# feappv
-FEAPpv -- free personal version of the FEAP
+# FEAPpv
+FEAPpv -- a free personal version of the FEAP
 
-This version of FEAP is available for free.  It is directly modeled after FEAP but does not contain all of its features, such as a parallel capability, contact, fe2, igafeap, and a number of other advanced features.  Its architecture is generally similar to FEAP's but often is a bit behind in programming style.  Some additional details can be found at http://projects.ce.berkeley.edu/feap/feappv.
+FEAPpv is a simplifed version of FEAP and does not included many advanced features such as a parallel capability, contact, fe2, igafeap. It only supports a limited number of material models. The programming architecture of FEAPpv is generally similar to that of FEAP but often is a bit behind in development. The official website of FEAPpv can be found at http://projects.ce.berkeley.edu/feap/feappv.
 
-For information on FEAP see http://projects.ce.berkeley.edu/feap
+For information about FEAP, see http://projects.ce.berkeley.edu/feap and FEAP Wiki at http://feap.berkeley.edu/wiki
 
-There is a FEAP and FEAPpv forum at http://feap.berkeley.edu and there is a nacient wiki at http://feap.berkeley.edu/wiki
+If you have any questions about this program or the full version FEAP, please visit the user's forum at http://feap.berkeley.edu. 
