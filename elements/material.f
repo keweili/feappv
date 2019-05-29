@@ -3878,11 +3878,12 @@
 
       do i = 1,3
         sig(i) = sig(i) * detfi + press
+        sig(i+3) = sig(i+3) * detfi
       end do
 
 !     Compute stored energy density
 
-      engy = u + (d(22)*j23*trbe3 - d(22))*1.5d0
+      engy = u + (d(22)*trbe3 - d(22))*1.5d0
 
       end
 
