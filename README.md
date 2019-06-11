@@ -23,12 +23,12 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 3. Right-click the project name (feappv) in the "Solution Explorer" window on the right and select Add ->  Existing Item...    
     a. Set the file format to show "All Files (*.*)" in the window if needed    
-    b. Add “feappv.f” from the "main" subdirectory of FEAP package, e.g. <br /> `C:\users\***\feappv41\main`   
+    b. Add “feappv.f” from the "main" subdirectory of FEAPpv source code, e.g. <br /> `C:\users\***\feappv41\main`   
  
 
 4.  Right-click the project name (feappv) again and select Properties     
     a. Select Fortran on the left, then General     
-    b. Add following FEAP include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
+    b. Add following FEAPpv include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
  
 
 5. Right-click the solution name (feappv41) -> Add -> New Project...   
@@ -41,17 +41,16 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 7. Right-click the "lib41" Project and select Properties  
     a. Select Fortran, then General on the left</li>  
-    b. Add following FEAP include directories to the '''Additional Include Directories''': <br /> `C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer4`, <br /> or 64-bit Windows machine,  <br />  `C:\users\xxx\feappv41\include\integer8`  <br /> Again, you only need one of them.
+    b. Add following FEAPpv include directories to the '''Additional Include Directories''': <br /> `C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer4`, <br /> or 64-bit Windows machine,  <br />  `C:\users\xxx\feappv41\include\integer8`  <br /> Again, you only need one of them.
  
 
-8.  Right-click the *lib41* Project and select Add -> New Folder    
-    a. Change the name of the folder to *elements*.  
+8.  Right-click the *lib41* Project and select Add -> New Folder. This will create a new forlder with the defult name, e.g. "NewFolder1"      
+    a. Rigth click that folder and change the name to *elements*.  
     b. Right-click the folder *elements* and Add -> Existing Item...   
-    c. Navigate to the FEAP source folder at <br /> `C:\Users\***\feappv41\elements`   
-    d. Select all the Fortran source files in that folder and click Add button.    
- 
+    c. Navigate to the FEAPpv source folder at <br /> `C:\Users\***\feappv41\elements`   
+    d. Select all the Fortran source (`.f`) files in that folder and click Add button.    
 
-9.  Repeat Step 8 to add the following folders and their subfolders under the FEAP root directory `C:\Users\***\feappv41\`: *plot*, *program*, *user*, and *windows*' (do not add *UNIX*, *include*, and *main* folders in this step).   
+9.  Repeat Step 8 to add the following folders and their subfolders under the FEAPpv root directory `C:\Users\***\feappv41\`: *plot*, *program*, *user*, and *windows*' (do not add *UNIX*, *include*, and *main* folders in this step).   
  
 10. If you have coded some user subroutines, you should remove the default dummy files under `feappv41/user` and add your own subroutines to a new folder or the same folder `feappv41/user`.   
 
@@ -59,7 +58,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
     a. In the window on the left, select "Project Dependencies" under "Common Properties" .   
     b. In the project list on the right, select the *feappv* project we created in Step 1 if it is not selected.    
     c. In the "Depends on" window underneath, check the project *lib41* to indicate that the project *feappv* depends on project *lib41*.    
-    d. If you want to build FEAP for 64-bit version of Windows, select  "Configuration Properties"  in the window on the left. Than, change the solution platform to the "x64" on the top and also change the platform for both the feappv main project and the lib41 project. 
+    d. If you want to build FEAPpv for 64-bit version of Windows, select  "Configuration Properties"  in the window on the left. Than, change the solution platform to the "x64" on the top and also change the platform for both the feappv main project and the lib41 project. 
  
 12. Under the Build tab on the main menu select Build Solution. Then, the Fortran compiler will compile and build the static library and then the FEAPpv executable file (feappv.exe).  You can find the executable file in the solution directory chosen in Step 1, e.g. <br /> `C:\Users\***\projects\feappv41\feappv41\feappv\x64\Release` 
 
