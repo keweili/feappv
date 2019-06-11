@@ -26,13 +26,13 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 3. Right-click the project name (feap) in the '''Solution Explorer''' window on the right and select Add ->  Existing Item...
 <ol type="a">
 <li>Set the file format to show "All Files (*.*)" in the window if needed </li>
-<li>Add “feappv.f” from the "main" subdirectory of FEAP package, e.g. <br /> <code>C:\users\***\feappv41\main</code></li>
+<li>Add “feappv.f” from the "main" subdirectory of FEAP package, e.g. <br /> `C:\users\***\feappv41\main`</li>
 </ol>
 
 4.  Right-click the project name (feappv) again and select Properties
 <ol type="a">
 <li>Select Fortran on the left, then General</li>
-<li>Add following FEAP include directories to the  ''Additional Include Directories'' : <br / ><code>C:\users\xxx\feappv41\include</code> <br /> and the appropriate directory for 32-bit Windows machine: <br /> <code>C:\users\xxx\feappv41\include\integer4</code> <br /> or for 64-bit Windows machine <br /> <code>C:\users\xxx\feappv41\include\integer8</code>. <br /> You only need one of them for your machine. </li>
+<li>Add following FEAP include directories to the  ''Additional Include Directories'' : <br / >`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine. </li>
 </ol>
 
 5. Right-click the solution name (feap85) -> Add -> New Project…
@@ -48,7 +48,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 7. Right-click the ''lib41'' Project and select Properties
 <ol type="a">
 <li>Select Fortran, then General on the left</li>
-<li>Add following FEAP include directories to the '''Additional Include Directories''': <br /> <code>C:\users\xxx\feappv41\include</code> <br /> and the appropriate directory for 32-bit Windows machine <br /> <code>C:\users\xxx\feappv41\include\integer4</code>, <br /> or 64-bit Windows machine,  <br />   <code>C:\users\xxx\feappv41\include\integer8</code>  <br /> Again, you only need one of them.
+<li>Add following FEAP include directories to the '''Additional Include Directories''': <br /> `C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer4`, <br /> or 64-bit Windows machine,  <br />  `C:\users\xxx\feappv41\include\integer8`  <br /> Again, you only need one of them.
 </li>
 </ol>
 
