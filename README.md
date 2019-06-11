@@ -21,7 +21,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 2. At the top select "Release" build (as opposed to Debug)  
 
-3. Right-click the project name (feap) in the "Solution Explorer" window on the right and select Add ->  Existing Item...    
+3. Right-click the project name (feappv) in the "Solution Explorer" window on the right and select Add ->  Existing Item...    
     a. Set the file format to show "All Files (*.*)" in the window if needed    
     b. Add “feappv.f” from the "main" subdirectory of FEAP package, e.g. <br /> `C:\users\***\feappv41\main`   
  
@@ -31,7 +31,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
     b. Add following FEAP include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
  
 
-5. Right-click the solution name (feap85) -> Add -> New Project...   
+5. Right-click the solution name (feappv41) -> Add -> New Project...   
     a. Select Library on the left under Intel(R) Visual Fortran:   
     b. Select Static Library   
     c. Name library, e.g. lib41   
