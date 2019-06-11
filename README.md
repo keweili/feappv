@@ -6,6 +6,7 @@ The FEAPpv source code in this repository is an updated version with some correc
 * The `neoh3f(*)` subroutine for the [Neo-Hookean hyperelastic material model][Neohookean] has been updated.  
 * The `hdata.h` file under `\include\integer4` has been updated due to an error. 
 
+# FEAP User's Forum
 For information about FEAP, see http://projects.ce.berkeley.edu/feap and FEAP Wiki at http://feap.berkeley.edu/wiki. If you have any questions about this program or the full version FEAP, please visit the user's forum at http://feap.berkeley.edu.
 
 [Neohookean]:https://en.wikipedia.org/wiki/Neo-Hookean_solid
