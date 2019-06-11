@@ -12,7 +12,7 @@ The FEAPpv source code in this repository is an updated version with some correc
 The following workflow demonstrates how to compile and build FEAPpv from source code. The advantage of this new method is that you can build the FEAPpv main program and all the subroutines at once. In this method, we will create a Visual Studio solution which consists of two projects: the FEAPpv main program and a static library. At first, we will create a QuickWin Application for FEAPpv main program and then another project for the static library.   
 
 1. Open Visual Studio.  
-    a. Select File -> New -> Project...  
+    a. Select File &rarr New &rarr Project...  
     b. Select "QuickWin Application" on the left under Intel(R) Visual Fortran, then select "QuickWin Application" option on the right.   
     c. Name the project for the main program, e.g. feappv.  
     d. Select a directory and remember it, e.g. `C:\Users\***\projects\feappv41\`   
