@@ -62,7 +62,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
  
 12. Under the Build tab on the main menu select Build Solution. Then, the Fortran compiler will compile and build the static library and then the FEAPpv executable file (feappv.exe).  You can find the executable file in the solution directory chosen in Step 1, e.g. <br /> `C:\Users\***\projects\feappv41\feappv41\feappv\x64\Release` 
 
-The program is ready to use. If you encountered an error saying that some dll files such as "libifcoremd.dll" are missing while runing the executable file for the first time, please install the [Intel Fortran Compiler Redistributable Libraries][IntelForRed].   
+The program is ready to use. If you encountered an error saying that some dll files such as "libifcoremd.dll" are missing while runing the executable file for the first time, please install the [Intel Fortran Compiler Redistributable Libraries][IntelForRed] for your computer first.   
 
 
 ## FEAP User's Forum ##
