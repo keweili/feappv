@@ -25,9 +25,8 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
     a. Set the file format to show "All Files (*.*)" in the window if needed    
     b. Add “feappv.f” from the "main" subdirectory of FEAPpv source code, e.g. <br /> `C:\users\***\feappv41\main`   
  
-
 4.  Right-click the project name (feappv) again and select Properties     
-    a. Select Fortran on the left, then General     
+    a. Select Fortran on the left, then General  
     b. Add following FEAPpv include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
  
 
