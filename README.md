@@ -13,10 +13,10 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 1. Open Visual Studio.  
     a. Select File -> New -> Project...  
-    b. Select "QuickWin Application" on the left under Intel(R) Visual Fortran, then select "QuickWin Application" option on the right.   
-    c. Name the project for the main program, e.g. feappv.  
-    d. Select a directory and remember it, e.g. `C:\Users\***\projects\feappv41\`   
-    e. At the bottom, add a solution name, e.g. feappv41   
+    b. Select "QuickWin Application" in the left column under Intel(R) Visual Fortran, then select "QuickWin Application" option in the middle column.   
+    c. At the bottom, name the project for the main program of FEAPpv, e.g. feappv.  
+    d. Select a directory and note it down, e.g. `C:\Users\***\projects\`   
+    e. Add a solution name, e.g. FEAPpv41   
     f. Click OK 
 
 2. At the top select "Release" build (as opposed to Debug)  
