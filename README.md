@@ -53,11 +53,11 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
  
 10. If you have coded some user subroutines, you should remove the default dummy files under `feappv41/user` and add your own subroutines to a new folder or the same folder `feappv41/user`.   
 
-11. Right-click the Solution name ''feappv41'' given in Step 1 and select Properties    
-    a. In the window on the left, select "Project Dependencies" under "Common Properties" .   
-    b. In the project list on the right, select the *feappv* project we created in Step 1 if it is not selected.    
+11. Right-click the Solution name ''FEAPpv41'' we created in Step 1 and select Properties    
+    a. In the left colume, select "Project Dependencies" under "Common Properties" .   
+    b. In the project list in the right colume, select the *feappv* project we created in Step 1 if it is not selected.    
     c. In the "Depends on" window underneath, check the project *lib41* to indicate that the project *feappv* depends on project *lib41*.    
-    d. If you want to build FEAPpv for 64-bit version of Windows, select  "Configuration Properties"  in the window on the left. Than, change the solution platform to the "x64" on the top and also change the platform for both the feappv main project and the lib41 project. 
+    d. If you want to build FEAPpv for 64-bit version of Windows, select  "Configuration Properties"  in the left column. Than, change the solution platform to the "x64" on the top (If you do not see the "x64" option, click "Configuration Manager" on the right and then click "x86" under "Actiave solution platform", select "New" and enter "x64" in the first box to create a new platform) and also make sure the platform for both the feappv main project and the lib41 project are correct.  
  
 12. Under the Build tab on the main menu select Build Solution. Then, the Fortran compiler will compile and build the static library and then the FEAPpv executable file (feappv.exe). You can find the executable file in the solution directory chosen in Step 1, e.g. <br /> `C:\Users\***\projects\feappv41\feappv41\feappv\x64\Release` 
 
