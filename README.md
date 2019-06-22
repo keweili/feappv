@@ -23,11 +23,11 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 3. Right-click the project name (feappv) in the "Solution Explorer" window on the right and select Add ->  Existing Item...    
     a. Set the file format to show "All Files (*.*)" in the window if needed    
-    b. Add “feappv.f” from the "main" subdirectory of FEAPpv source code, e.g. <br /> `C:\users\***\feappv41\main`   
+    b. Add "feappv.f" from the "main" subdirectory of FEAPpv source code, e.g. <br /> `C:\users\***\feappv41\main`   
  
 4.  Right-click the project name (feappv) again and select Properties     
     a. Select Fortran on the left, then General  
-    b. Add following FEAPpv include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
+    b. Add following FEAPpv include directories to the "Additional Include Directories" : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
  
 
 5. Right-click the solution name (FEAPpv41) -> Add -> New Project...   
@@ -40,7 +40,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
 
 7. Right-click the "lib41" Project and select Properties  
     a. Select Fortran, then General on the left    
-    b. Add following FEAPpv include directories to the '''Additional Include Directories''': <br /> `C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer4`, <br /> or 64-bit Windows machine,  <br />  `C:\users\xxx\feappv41\include\integer8`  <br /> Again, you only need one of them.
+    b. Add following FEAPpv include directories to the "Additional Include Directories": <br /> `C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer4`, <br /> or 64-bit Windows machine,  <br />  `C:\users\xxx\feappv41\include\integer8`  <br /> Again, you only need one of them.
  
 
 8.  Right-click the *lib41* Project and select Add -> New Folder. This will create a new forlder with the defult name, e.g. "NewFolder1"      
@@ -53,7 +53,7 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
  
 10. If you have coded some user subroutines, you should remove the default dummy files under `feappv41/user` and add your own subroutines to a new folder or the same folder `feappv41/user`.   
 
-11. Right-click the Solution name ''FEAPpv41'' we created in Step 1 and select Properties    
+11. Right-click the Solution name "FEAPpv41" we created in Step 1 and select "Properties"    
     a. In the left column, select "Project Dependencies" under "Common Properties" .   
     b. In the project list in the right column, select the *feappv* project we created in Step 1 if it is not selected.    
     c. In the "Depends on" window underneath, check the project *lib41* to indicate that the project *feappv* depends on project *lib41*.    
@@ -65,7 +65,7 @@ The program is ready to use. If you encountered an error saying that some dll fi
 
 
 ## FEAP User's Forum ##
-For information about FEAP, see http://projects.ce.berkeley.edu/feap and FEAP Wiki at http://feap.berkeley.edu/wiki. If you have any questions about this program or the full version FEAP, please visit the user's forum at http://feap.berkeley.edu.
+For information about FEAP, see [the official FEAP website][http://projects.ce.berkeley.edu/feap] and [FEAP Wiki][http://feap.berkeley.edu/wiki]. If you have any questions about this program or the full version FEAP, please visit the [FEAP user's forum][at http://feap.berkeley.edu].
 
 [Neohookean]:https://en.wikipedia.org/wiki/Neo-Hookean_solid
 [IntelForRed]:https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version  
