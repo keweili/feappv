@@ -30,8 +30,8 @@ The following workflow demonstrates how to compile and build FEAPpv from source 
     b. Add following FEAPpv include directories to the ''Additional Include Directories'' : <br />`C:\users\xxx\feappv41\include` <br /> and the appropriate directory for 32-bit Windows machine: <br /> `C:\users\xxx\feappv41\include\integer4` <br /> or for 64-bit Windows machine <br /> `C:\users\xxx\feappv41\include\integer8`. <br /> You only need one of them for your machine.  
  
 
-5. Right-click the solution name (feappv41) -> Add -> New Project...   
-    a. Select Library on the left under Intel(R) Visual Fortran:   
+5. Right-click the solution name (FEAPpv41) -> Add -> New Project...   
+    a. Select Library under Intel(R) Visual Fortran in the left column:   
     b. Select Static Library     
     c. Name library, e.g. lib41   
     d. Click OK    
