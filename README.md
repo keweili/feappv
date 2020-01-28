@@ -1,6 +1,6 @@
 ## FEAPpv ##
 
-FEAPpv is a simplifed and free version of FEAP and does not included many advanced features such as a parallel capability, contact, fe2, igafeap. It only supports a limited number of material models. The programming architecture of FEAPpv is generally similar to that of FEAP but often is a bit behind in development. The official website of FEAPpv can be found at http://projects.ce.berkeley.edu/feap/feappv. To compile and build FEAPpv from the source code in this repository, see http://feap.berkeley.edu/wiki/index.php/Installation. 
+FEAPpv is a simplifed and free version of FEAP and does not included many advanced features such as a parallel capability, contact, fe2, igafeap. It only supports a limited number of material models. The programming architecture of FEAPpv is generally similar to that of FEAP but often is a bit behind in development. The official website of FEAPpv can be found at http://projects.ce.berkeley.edu/feap/feappv.   
 
 The FEAPpv source code in this repository is an updated version with some corrections not avaialbe in the official version.  
 * The `neoh3f(*)` subroutine for the [Neo-Hookean hyperelastic material model][Neohookean] has been updated.  
