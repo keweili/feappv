@@ -65,7 +65,16 @@ The program is ready to use. If you encountered an error saying that some dll fi
 
 
 ## FEAP User's Forum ##
-For information about FEAP, see [the official FEAP website][http://projects.ce.berkeley.edu/feap] and [FEAP Wiki][http://feap.berkeley.edu/wiki]. If you have any questions about this program or the full version FEAP, please visit the [FEAP user's forum][at http://feap.berkeley.edu].
+For information about FEAP, see [the official FEAP website][FEAPweb] and [FEAP Wiki][FEAPwiki]. If you have any questions about this program or the full version FEAP, please visit the [FEAP user's forum][FEAPforum].   
 
 [Neohookean]:https://en.wikipedia.org/wiki/Neo-Hookean_solid
 [IntelForRed]:https://software.intel.com/en-us/articles/intel-compilers-redistributable-libraries-by-version  
+[FEAPweb]:http://projects.ce.berkeley.edu/feap  
+[FEAPwiki]: http://feap.berkeley.edu/wiki   
+[FEAPforum]:http://feap.berkeley.edu   
+
+
+
+
+
+
